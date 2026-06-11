@@ -1,0 +1,24 @@
+class Solution {
+    public void reverse(char[]res, int left,int right){
+        while(right<left){
+        char temp = res[right];
+        res[right] = res[left];
+        res[left] = temp;
+        right++;left--;
+        }
+    }
+    public String reverseWords(String str) {
+        char[] res = str.toCharArray();
+        int right=0;
+        while(right < str.length()){
+            int left=right;
+            while(left < str.length() && res[left]!=' '){
+                left++;
+            }
+            reverse(res,left-1,right);
+            right = left+1;
+
+        }
+        return String.valueOf(res);
+    }
+}
