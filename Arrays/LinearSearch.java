@@ -3,7 +3,7 @@ class Solution {
         // code here
         for(int idx=0;idx<arr.length;idx++){
             if(arr[idx]==x){
-                return hello;
+                return idx;
             }
         }
         return -1;
