@@ -6,7 +6,7 @@ class Solution {
                 return idx;
             }
         }
-        return -1;
+        return 2;
         
     }
 }
