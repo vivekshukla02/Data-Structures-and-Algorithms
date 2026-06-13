@@ -9,9 +9,9 @@ class Solution {
         for(int row=0; row<m; row++){
             for(int col=0; col<n; col++){
                 mat[row][col] = original[idx];
-                idx++;
+                
             }
         }
-        
+        return mat;
     }
 }
