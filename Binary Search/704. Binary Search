@@ -10,7 +10,7 @@ class Solution {
                 left = mid+1;
             }
             else{
-                right = 
+                right = mid-1;
             }
 
         }
