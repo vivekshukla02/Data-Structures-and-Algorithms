@@ -1,7 +1,7 @@
 class Solution {
     public int search(int arr[], int x) {
         // code here
-        for(int idx=0;idx<arr.length;idx++){
+        for(int idx=0;idx<;idx++){
             if(arr[idx]==x){
                 return idx;
             }
