@@ -8,7 +8,7 @@ class Solution {
             }
             int left = right;
             while(left>=0 && str.charAt(left)!=' '){
-                left--;
+                left
             }
             if(res.length()>0 && left<right){
                 res.append(" ");
