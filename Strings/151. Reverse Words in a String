@@ -18,6 +18,6 @@ class Solution {
             }
             right=left;
         }
-        return res.toString();
+        return res.toString
     }
 }
