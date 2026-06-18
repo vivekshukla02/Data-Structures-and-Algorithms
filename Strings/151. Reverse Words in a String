@@ -4,7 +4,7 @@ class Solution {
         StringBuilder res = new StringBuilder();
         while(right>=0){
             while(right>=0 && str.charAt(right)==' '){
-                right--;
+                right
             }
             int left = right;
             while(left>=0 && str.charAt(left)!=' '){
