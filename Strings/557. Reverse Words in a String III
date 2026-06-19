@@ -13,7 +13,7 @@ class Solution {
         while(right < str.length()){
             int left=right;
             while(left < str.length() && res[left]!=' '){
-                left++
+                left++;
             }
             reverse(res,left-1,right);
             right = left+1; 
