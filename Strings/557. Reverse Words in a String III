@@ -4,7 +4,7 @@ class Solution {
         char temp = res[right];
         res[right] = res[left];
         res[left] = temp;
-        right++;left--;
+        right++;left
         }
     }
     public String reverseWords(String str) {
