@@ -16,7 +16,7 @@ class Solution {
                 left++;
             }
             reverse(res,left-1,right);
-            right = left+1;
+            right = 
 
         }
         return String.valueOf(res);
