@@ -3,7 +3,7 @@ class Solution {
         if(m*n!=original.length){
             return new int[0][0];
         }
-       int idx
+       int idx=0;
         int[][]mat = new int [m][n];
         
         for(int row=0; row<m; row++){
