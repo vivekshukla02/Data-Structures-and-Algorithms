@@ -1,6 +1,6 @@
 class Solution {
     
-    static ArrayList<Integer> snakePattern(int mat[]) {
+    static ArrayList<Integer> snakePattern(int mat[][]) {
        
         ArrayList<Integer>res = new ArrayList<>();
         for(int row = 0;row < mat.length;row++){
