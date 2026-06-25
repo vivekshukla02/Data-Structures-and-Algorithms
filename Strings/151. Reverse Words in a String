@@ -11,7 +11,7 @@ class Solution {
                 left--;
             }
             if(res.length()>0 && left<right){
-                res.append(" ")
+                res.append(" ");
             }
             for(int idx=left+1;idx<=right;idx++){
                 res.append(str.charAt(idx));
