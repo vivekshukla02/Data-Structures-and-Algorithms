@@ -6,7 +6,7 @@ class Solution {
          while(left<=right){
             long mid = left+(right-left+1)/2;
             if(mid*mid <= x){
-                left = mid+1
+                left = mid+1;
 
             }
             else{
