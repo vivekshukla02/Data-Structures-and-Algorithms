@@ -10,7 +10,7 @@ class Solution {
 
             }
             else{
-                right = mid-1;
+                right = mid-1
             }
          }
          return (int)right
