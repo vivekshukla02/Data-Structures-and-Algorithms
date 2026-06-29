@@ -1,0 +1,19 @@
+class Solution {
+    public int countZeros(int[][] mat) {
+        // code here
+        int n = mat.length;
+        int row = 0;
+        int col = n-1;
+        int count = 0;
+        while(row<n && col>=0){
+            if(mat[row][col]==0){
+                row++;
+                count+= col+1;
+            }
+            else{
+                col--;
+            }
+        }
+        return count;
+    }
+};
