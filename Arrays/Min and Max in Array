@@ -1,0 +1,20 @@
+class Solution {
+    public ArrayList<Integer> getMinMax(int[] arr) {
+        // code Here
+       int min = Integer.MAX_VALUE;
+       int max = Integer.MIN_VALUE;
+       for(int idx=0; idx<arr.length; idx++){
+           if(arr[idx]< min){
+               min = arr[idx];
+           }
+           if(arr[idx]>max){
+               max = arr[idx];
+           }
+           
+       }
+       ArrayList<Integer> nums = new ArrayList<>();
+       nums.add(min);
+       nums.add(max);
+       return nums;
+    }
+}
