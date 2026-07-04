@@ -18,7 +18,7 @@ class Solution {
 
 
     public boolean isPerfectSquare(int num) {
-        int sqrt = mySqrt(num)
+        int sqrt = mySqrt(num);
         return sqrt*sqrt==num;
     }
 }
