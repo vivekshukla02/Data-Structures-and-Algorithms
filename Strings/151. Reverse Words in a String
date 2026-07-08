@@ -14,7 +14,7 @@ class Solution {
                 res.append(" ");
             }
             for(int idx=left+1;idx<=right;idx++){
-                res.append(str.charAt(idx));
+                res.append(str.charAt(idx))
             }
             right=left;
         }
