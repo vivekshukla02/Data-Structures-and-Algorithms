@@ -16,7 +16,7 @@ class Solution {
             for(int idx=left+1;idx<=right;idx++){
                 res.append(str.charAt(idx));
             }
-            right=left;
+            right=left
         }
         return res.toString();
     }
