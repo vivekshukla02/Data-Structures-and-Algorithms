@@ -3,6 +3,6 @@ class Solution {
         // code here
         if (n==0)return;
         System.out.print(n + " ");
-        printNos(n-1);
+        printNos(n-1)
     }
 }
