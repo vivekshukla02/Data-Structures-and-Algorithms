@@ -1,5 +1,5 @@
 class Solution {
-    long factorial(int n) {
+    long factorial(int ) {
         // code here
         if(n==0)return 1;
         
