@@ -2,7 +2,7 @@ class Solution {
     
     static ArrayList<Integer> snakePattern(int mat[][]) {
        
-        ArrayList<Integer>res = new ArrayList<>()
+        ArrayList<Integer>res = new ArrayList<>();
         for(int row = 0;row < mat.length;row++){
             if(row%2==0){
                 for(int col=0;col< mat[0].length;col++){
