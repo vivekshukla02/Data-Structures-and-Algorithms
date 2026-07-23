@@ -11,7 +11,7 @@ class Solution {
                 count+= col+1;
             }
             else{
-                col--;
+                col--
             }
         }
         return count;
