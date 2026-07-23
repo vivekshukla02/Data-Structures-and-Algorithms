@@ -1,7 +1,7 @@
 class Solution {
     public int countZeros(int[][] mat) {
         // code here
-        int n = mat.length
+        int n = mat.length;
         int row = 0;
         int col = n-1;
         int count = 0;
