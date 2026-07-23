@@ -14,6 +14,6 @@ class Solution {
                 col--;
             }
         }
-        return count
+        return count;
     }
 };
