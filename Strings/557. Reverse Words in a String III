@@ -11,7 +11,7 @@ class Solution {
         char[] res = str.toCharArray()
         int right=0;
         while(right < str.length()){
-            int left=right;
+            int left=right
             while(left < str.length() && res[left]!=' '){
                 left++;
             }
