@@ -12,6 +12,6 @@ class Solution {
            
         }
         int []ans = {first,last};
-        return ans
+        return ans;
     }
 }
