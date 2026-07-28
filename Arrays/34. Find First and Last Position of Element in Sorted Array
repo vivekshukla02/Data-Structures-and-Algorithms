@@ -6,7 +6,7 @@ class Solution {
             if(arr[idx]==target){
                 last = idx;
                  if(first ==-1){
-                first = idx
+                first = idx;
             }
             }
            
