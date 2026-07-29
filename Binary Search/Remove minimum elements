@@ -30,6 +30,6 @@ class Solution {
             int removals = n-(max-min+1);
             minRemovals = Math.min(removals,minRemovals);
         }
-        return minRemovals
+        return minRemovals;
     }
 }
