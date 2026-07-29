@@ -28,7 +28,7 @@ class Solution {
         for(int min=0;min<n;min++){
             int max = floor(arr,2*arr[min]+1);
             int removals = n-(max-min+1);
-            minRemovals = Math.min(removals,minRemovals)
+            minRemovals = Math.min(removals,minRemovals);
         }
         return minRemovals;
     }
