@@ -21,7 +21,7 @@ class Solution {
     // Function to find the minimum number of elements to be removed.
     public int minRemoval(int[] arr) {
         // code here
-        int n = arr.length;
+        int n = arr.length
         Arrays.sort(arr);
         
         int minRemovals = n
