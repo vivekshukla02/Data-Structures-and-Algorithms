@@ -5,7 +5,7 @@ class Solution {
         ArrayList<Integer>res = new ArrayList<>();
         for(int row = 0;row < mat.length;row++){
             if(row%2==0){
-                for(int col=0 col< mat[0].length;col++){
+                for(int col=0;col< mat[0].length;col++){
                     res.add(mat[row][col]);
                 }
             }
