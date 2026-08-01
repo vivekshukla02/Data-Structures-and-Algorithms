@@ -33,7 +33,7 @@ public int binarySearch(int[]nums , int target, int left , int right){
             right = mid-1;
         }
     }
-    return -1
+    return -1;
 }
 
     public int search(int[] nums, int target) {
