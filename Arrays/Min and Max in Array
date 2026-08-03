@@ -1,6 +1,6 @@
 class Solution {
     public ArrayList<Integer> getMinMax(int[] arr) {
-        // code Here
+        
        int min = Integer.MAX_VALUE;
        int max = Integer.MIN_VALUE;
        for(int idx=0; idx<arr.length; idx++){
