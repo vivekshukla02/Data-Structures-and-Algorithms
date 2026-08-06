@@ -5,6 +5,6 @@ class Solution {
         
         long ans = factorial(n-1)
         long Nans = factorial(n-1)*n;
-        return Nans
+        return Nans;
     }
 }
