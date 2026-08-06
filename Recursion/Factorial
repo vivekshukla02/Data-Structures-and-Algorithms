@@ -1,7 +1,7 @@
 class Solution {
     long factorial(int n) {
         // code here
-        if(n==0)return 1
+        if(n==0)return 1;
         
         long ans = factorial(n-1);
         long Nans = factorial(n-1)*n;
