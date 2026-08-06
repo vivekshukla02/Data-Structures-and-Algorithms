@@ -4,7 +4,7 @@ class Solution {
         if(n==0)return 1;
         
         long ans = factorial(n-1)
-        long Nans = factorial(n-1)*n;
+        long Nans = factorial(n-1)*n
         return Nans;
     }
 }
