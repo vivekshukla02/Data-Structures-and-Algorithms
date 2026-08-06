@@ -1,6 +1,6 @@
 class Solution {
     long factorial(int n) {
-        // code here
+     
         if(n==0)return 1;
         
         long ans = factorial(n-1);
