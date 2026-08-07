@@ -24,7 +24,7 @@ class Solution {
         int n = arr.length;
         Arrays.sort(arr);
         
-        int minRemovals = 
+        int minRemovals = n;
         for(int min=0;min<n;min++){
             int max = floor(arr,2*arr[min]+1);
             int removals = n-(max-min+1);
