@@ -13,7 +13,7 @@ class Solution {
            
        }
        ArrayList<Integer> nums = new ArrayList<>();
-       nums.add(min)
+       nums.add(min);
        nums.add(max);
        return nums;
     }
