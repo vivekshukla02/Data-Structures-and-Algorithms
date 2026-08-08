@@ -14,7 +14,7 @@ class Solution {
        }
        ArrayList<Integer> nums = new ArrayList<>();
        nums.add(min)
-       nums.add(max)
+       nums.add(max);
        return nums;
     }
 }
