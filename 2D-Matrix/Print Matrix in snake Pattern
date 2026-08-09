@@ -10,7 +10,7 @@ class Solution {
                 }
             }
             else{
-                for(int col=mat[0].length-1;col>=0;col--){
+                for(int col=mat[0].length-1col>=0;col--){
                     res.add(mat[row][col]);
                 }
             }
