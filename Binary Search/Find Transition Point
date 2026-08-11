@@ -1,6 +1,6 @@
 class Solution {
     int transitionPoint(int arr[]) {
-        // code here
+        
          int n = arr.length;
         if(arr[n-1]==0){
             return -1;
