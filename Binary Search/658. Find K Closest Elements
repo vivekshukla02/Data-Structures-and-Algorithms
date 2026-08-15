@@ -26,7 +26,7 @@ class Solution {
             int floorDist = (floor==-1)?Integer.MAX_VALUE:(target-arr[floor]);
            int  ceilDist = (ceil==arr.length)? Integer.MAX_VALUE:(arr[ceil]-target);
             if(floorDist<=ceilDist){
-                floor--;
+                floor--
             }
             else{
                 ceil++;
