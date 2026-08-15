@@ -32,7 +32,7 @@ class Solution {
                 ceil++;
             }
         }
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new ArrayList<>()
         for(int idx=floor+1;idx<ceil;idx++){
         res.add(arr[idx]);
         }
