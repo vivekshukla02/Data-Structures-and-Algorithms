@@ -8,7 +8,7 @@ class Solution {
                min = arr[idx];
            }
            if(arr[idx]>max){
-               max = arr[idx]
+               max = arr[idx];
            }
            
        }
