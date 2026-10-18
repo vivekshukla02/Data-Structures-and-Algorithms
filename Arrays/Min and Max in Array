@@ -5,7 +5,7 @@ class Solution {
        int max = Integer.MIN_VALUE;
        for(int idx=0; idx<arr.length; idx++){
            if(arr[idx]< min){
-               min = arr[idx]
+               min = arr[idx];
            }
            if(arr[idx]>max){
                max = arr[idx];
