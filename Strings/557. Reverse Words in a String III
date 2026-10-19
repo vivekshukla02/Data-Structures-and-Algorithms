@@ -1,7 +1,7 @@
 class Solution {
     public void reverse(char[]res, int left,int right){
         while(right<left){
-        char temp = res[right]
+        char temp = res[right];
         res[right] = res[left];
         res[left] = temp;
         right++;left--;
