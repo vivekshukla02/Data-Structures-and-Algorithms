@@ -16,7 +16,7 @@ public int findMin(int[] nums){
         }
 
     }
-    return left
+    return left;
 }
 public int binarySearch(int[]nums , int target, int left , int right){
     while(left<=right){
