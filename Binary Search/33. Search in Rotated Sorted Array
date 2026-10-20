@@ -7,7 +7,7 @@ public int findMin(int[] nums){
         return 0;
     }
     while(left<=right){
-        int mid = left+(right-left+1)/2
+        int mid = left+(right-left+1)/2;
         if(nums[mid]>=nums[0]){
             left=mid+1;
         }
