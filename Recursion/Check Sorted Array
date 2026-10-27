@@ -1,0 +1,16 @@
+class Solution {
+    
+    boolean isSortedNew(int[]arr , int idx){
+        if(idx>=arr.length-1){return true;}
+        if(arr[idx]>arr[idx+1]){
+            return false;
+        }
+        return isSortedNew(arr,idx+1);
+        
+    }
+    
+     boolean isSorted(int[] arr) {
+     return isSortedNew(arr,0);
+    
+    }
+}
