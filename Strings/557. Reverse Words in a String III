@@ -8,7 +8,7 @@ class Solution {
         }
     }
     public String reverseWords(String str) {
-        char[] res = str.toCharArray()
+        char[] res = str.toCharArray();
         int right=0;
         while(right < str.length()){
             int left=right;
