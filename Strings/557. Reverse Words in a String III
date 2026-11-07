@@ -3,7 +3,7 @@ class Solution {
         while(right<left){
         char temp = res[right];
         res[right] = res[left];
-        res[left] = temp
+        res[left] = temp;
         right++;left--;
         }
     }
