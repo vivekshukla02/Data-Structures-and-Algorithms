@@ -4,7 +4,7 @@ class Solution {
         result = new ArrayList<>();
         List<Integer>output = new ArrayList<>();
         printSubsets(nums , 0 , output);
-        return result ;
+        return result 
 
     }    
      List<List<Integer>>result;
