@@ -2,7 +2,7 @@ class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         result = new ArrayList<>();
-        List<Integer>output = new ArrayList<>()
+        List<Integer>output = new ArrayList<>();
         printSubsets(nums , 0 , output);
         return result ;
 
