@@ -10,7 +10,7 @@ class Solution {
      List<List<Integer>>result;
     public void printSubsets(int[]input, int idx, List<Integer>output){ 
         if(idx==input.length){
-            result.add(new ArrayList<>(output));
+            result.add(new ArrayList<>(output))
             return;
 }
             output.add(input[idx]);
