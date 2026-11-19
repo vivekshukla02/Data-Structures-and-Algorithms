@@ -1,0 +1,25 @@
+class Solution {
+    List<List<Integer>>ways;
+    public void printWay(int[]coins , int idx , int target , List<Integer>output){
+        if(target<0) return;
+      if(idx==coins.length){
+         if(target==0)
+            ways.add(new ArrayList<>(output));
+
+         return;
+      }
+        output.add(coins[idx]);
+        printWay(coins , idx , target-coins[idx], output);
+        output.remove(output.size()-1);
+
+       
+        printWay(coins , idx+1 ,target, output);
+        
+    }
+    public List<List<Integer>> combinationSum(int[] coins, int target) {
+               
+               ways = new ArrayList<>();
+               printWay(coins , 0 , target , new ArrayList<>());
+               return ways;
+        }
+}
